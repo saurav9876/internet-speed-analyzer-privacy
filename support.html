@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Internet Speed Analyzer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        
+        .section h3 {
+            color: #555;
+            font-size: 1.3rem;
+            margin: 20px 0 10px 0;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: #555;
+        }
+        
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .section li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .highlight-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .contact-section h3 {
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .contact-methods {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .contact-method {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 200px;
+        }
+        
+        .contact-method h4 {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .contact-method a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid white;
+            padding-bottom: 2px;
+        }
+        
+        .contact-method a:hover {
+            opacity: 0.8;
+        }
+        
+        .faq-item {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .faq-item h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            font-size: 0.9rem;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .contact-methods {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">📱</div>
+            <h1>��️ Support Center</h1>
+            <div class="subtitle">Internet Speed Analyzer</div>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>📱 About Internet Speed Analyzer</h2>
+                <p>Internet Speed Analyzer is a privacy-focused utility app that helps you monitor and analyze your internet connection performance. Get real-time network insights, perform accurate speed tests, and understand your network configuration.</p>
+                
+                <div class="highlight-box">
+                    <strong>Privacy First:</strong> We don't collect, store, or transmit any personal data. Everything runs locally on your device.
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>❓ Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <h4>How does the speed test work?</h4>
+                    <p>The app downloads and uploads test files of various sizes to measure your actual internet speed. It uses multiple file sizes (1MB to 50MB) for accurate results.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Why can't I see my WiFi network name?</h4>
+                    <p>Due to iOS privacy restrictions, the app may not be able to display your WiFi network name (SSID). This is normal and doesn't affect the app's functionality.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Does the app collect my data?</h4>
+                    <p>No! Internet Speed Analyzer is designed with privacy in mind. All processing happens locally on your device, and no data is sent to external servers.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>How accurate are the speed test results?</h4>
+                    <p>The app performs real speed tests using multiple file sizes and provides weighted averages for the most accurate results possible on mobile devices.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>What network information is displayed?</h4>
+                    <p>The app shows your IP address, subnet mask, router IP, DNS servers, and connection type (WiFi, Cellular, or None).</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>�� Troubleshooting</h2>
+                
+                <h3>Speed Test Issues</h3>
+                <ul>
+                    <li>Ensure you have a stable internet connection</li>
+                    <li>Close other apps that might be using bandwidth</li>
+                    <li>Try testing at different times of day</li>
+                    <li>Check if your network has speed restrictions</li>
+                </ul>
+                
+                <h3>Network Information Issues</h3>
+                <ul>
+                    <li>Make sure you're connected to WiFi or cellular</li>
+                    <li>Try refreshing the network information</li>
+                    <li>Restart the app if information seems incorrect</li>
+                    <li>Check your device's network settings</li>
+                </ul>
+                
+                <h3>General Issues</h3>
+                <ul>
+                    <li>Force close and restart the app</li>
+                    <li>Ensure you have the latest iOS version</li>
+                    <li>Check your device's privacy settings</li>
+                    <li>Contact support if issues persist</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>�� App Features</h2>
+                
+                <h3>Network Information</h3>
+                <ul>
+                    <li>Real-time connection status</li>
+                    <li>IP address and subnet mask</li>
+                    <li>Router IP address</li>
+                    <li>DNS server information</li>
+                    <li>Connection type detection</li>
+                </ul>
+                
+                <h3>Speed Testing</h3>
+                <ul>
+                    <li>Download speed measurement</li>
+                    <li>Upload speed measurement</li>
+                    <li>Multiple file size testing</li>
+                    <li>Real-time speedometer display</li>
+                    <li>Accurate performance metrics</li>
+                </ul>
+                
+                <h3>User Experience</h3>
+                <ul>
+                    <li>Clean, intuitive interface</li>
+                    <li>Privacy-focused design</li>
+                    <li>No advertisements</li>
+                    <li>Offline network information</li>
+                    <li>Professional utility features</li>
+                </ul>
+            </div>
+            
+            <div class="contact-section">
+                <h3>�� Need More Help?</h3>
+                <p>We're here to help! Contact us through any of these methods:</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <h4>📧 Email Support</h4>
+                        <a href="mailto:kejriwal9576@gmail.com">kejriwal9576@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <h4>�� Feature Requests</h4>
+                        <a href="mailto:kejriwal9576@gmail.com?subject=Feature Request">Send Request</a>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <h4>🐛 Bug Reports</h4>
+                        <a href="mailto:kejriwal9576@gmail.com?subject=Bug Report">Report Issue</a>
+                    </div>
+                </div>
+                
+                <p style="margin-top: 20px; opacity: 0.9;">
+                    We typically respond within 24-48 hours during business days.
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 Internet Speed Analyzer. All rights reserved.</p>
+            <p>Made with ❤️ for better internet experiences</p>
+        </div>
+    </div>
+</body>
+</html>
