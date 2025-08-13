@@ -1,22 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Internet Speed Analyzer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: #555;
+        }
+        
+        .highlight-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .contact-info h3 {
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid white;
+            padding-bottom: 2px;
+        }
+        
+        .contact-info a:hover {
+            opacity: 0.8;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            font-size: 0.9rem;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Privacy Policy for Internet Speed Analyzer</h1>
-    <p><strong>Last updated:</strong> [Today's Date]</p>
+    <div class="container">
+        <div class="header">
+            <h1>�� Privacy Policy</h1>
+            <div class="subtitle">Internet Speed Analyzer</div>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>📱 About Our App</h2>
+                <p>Internet Speed Analyzer is a privacy-focused utility app designed to help you monitor and analyze your internet connection performance. We believe in transparency and protecting your privacy.</p>
+            </div>
+            
+            <div class="section">
+                <h2>�� Data Collection</h2>
+                <div class="highlight-box">
+                    <strong>Important:</strong> Internet Speed Analyzer does NOT collect, store, or transmit any personal data, user information, or usage statistics.
+                </div>
+                <p>Your privacy is our priority. We have designed this app to work completely offline without any data collection mechanisms.</p>
+            </div>
+            
+            <div class="section">
+                <h2>⚙️ How the App Works</h2>
+                <p>All processing is done locally on your device. The app only:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Displays network information already available to your device</li>
+                    <li>Performs speed tests using standard internet connections</li>
+                    <li>Processes results locally without external communication</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>🔒 Third-Party Services</h2>
+                <p>We do not use any third-party analytics, tracking, advertising, or data collection services. Your data never leaves your device.</p>
+            </div>
+            
+            <div class="section">
+                <h2>�� Device Permissions</h2>
+                <p>The app may request network access permissions to perform speed tests and display network information. These permissions are standard for network utility apps and do not involve data collection.</p>
+            </div>
+            
+            <div class="section">
+                <h2>�� Policy Updates</h2>
+                <p>This privacy policy may be updated occasionally. Any significant changes will be reflected in the app's update notes.</p>
+            </div>
+            
+            <div class="contact-info">
+                <h3>📧 Questions or Concerns?</h3>
+                <p>If you have any questions about this privacy policy or our app's privacy practices, please contact us:</p>
+                <a href="mailto:kejriwal9576@gmail.com">kejriwal9576@gmail.com</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Last updated: <span id="currentDate"></span></p>
+            <p>© 2024 Internet Speed Analyzer. All rights reserved.</p>
+        </div>
+    </div>
     
-    <h2>Data Collection</h2>
-    <p>Internet Speed Analyzer does NOT collect, store, or transmit any personal data or user information.</p>
-    
-    <h2>How the App Works</h2>
-    <p>All processing is done locally on your device. The app only displays network information that is already available to your device and performs speed tests using standard internet connections.</p>
-    
-    <h2>Third-Party Services</h2>
-    <p>We do not use any third-party analytics, tracking, or data collection services.</p>
-    
-    <h2>Contact</h2>
-    <p>For questions about this privacy policy, contact: kejriwal9576@gmail.com</p>
+    <script>
+        // Automatically display today's date
+        function updateDate() {
+            const today = new Date();
+            const options = { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            };
+            document.getElementById('currentDate').textContent = today.toLocaleDateString('en-US', options);
+        }
+        
+        // Update date when page loads
+        updateDate();
+    </script>
 </body>
 </html>
